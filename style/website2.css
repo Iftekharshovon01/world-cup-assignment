@@ -1,0 +1,33 @@
+@import url(style.css);
+
+
+.game-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.game-card-2{
+padding: 5px 10px;}
+.game-detail-2{
+    border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        padding: 10px;
+}
+
+.image-2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-2 span{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #161616;
+        padding: 0 20px;
+}
+.text{
+text-align: center;
+}

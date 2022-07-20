@@ -98,7 +98,7 @@ body{
     border-radius: 10px;
 
 }
-#selected{
+.selector a:hover{
         margin-top: 20px;
         text-align: center;
         text-decoration: none;
@@ -110,6 +110,19 @@ body{
         color: #FFFFFF;
         background: #DD0000;
         border-radius: 10px;
+}
+#active {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 10px;
 }
 .game-info{
     width: 75%;
@@ -177,3 +190,6 @@ footer{
     padding-top: 50px;
     color: #B9B9B9;
 }
+
+/* ----------website1 done--------- */
+/* -----------website2 start-------- */
