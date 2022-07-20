@@ -220,8 +220,7 @@ footer{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-feature-settings: 'liga' off;
-    padding-top: 50px;
+    padding: 50px 0;
     color: #B9B9B9;
 }
 

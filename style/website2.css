@@ -1,26 +1,22 @@
 @import url(style.css);
 
-.blog-detail{
-width: 90%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-.game-info{
+
+
+.game-card-2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 5px 10px;
+    gap:10px
 }
-.game-card-2{
-padding: 5px 10px;}
+    
 .game-detail-2{
     border: 1px solid #E8E8E8;
         border-radius: 10px;
-        padding: 10px;
+        padding: 20px;
 }
-.game-detail-2 image{
+/* .game-detail-2 img{
     width: 100%;
-}
+} */
 
 .image-2{
      display: flex;
@@ -28,6 +24,10 @@ padding: 5px 10px;}
     align-items: center;
 
 }
+.image-2 img{
+width: 100%;
+}
+
 .image-2 span{
     font-style: normal;
         font-weight: 700;
@@ -35,21 +35,22 @@ padding: 5px 10px;}
         line-height: 24px;
         text-align: center;
         color: #161616;
-        padding: 0 20px;
+        padding: 0 10px;
 }
 .text{
 text-align: center;
 }
 
 @media screen and (max-width: 767px) {
-    .game-info{
+    .game-card-2{
+        width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 480px) {
-    .game-info{
+    .game-card-2{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
