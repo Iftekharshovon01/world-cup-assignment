@@ -76,7 +76,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.blog-detail a {
+.btn a {
     margin-top: 50px;
     justify-content: center;
     align-items: center;
@@ -89,6 +89,7 @@ body{
     padding: 16px 25px;
     background: #DD0000;
     border-radius: 5px;
+    display: none;
 }
 
 .blog-detail-box{
